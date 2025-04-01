@@ -1,0 +1,40 @@
+2025-04-01 16:01:26,909 DEBUG: Debug message
+2025-04-01 16:01:26,909 INFO: Info message
+2025-04-01 16:01:26,909 WARNING: Warning message
+2025-04-01 16:01:26,909 ERROR: Error message
+2025-04-01 16:01:26,909 CRITICAL: Critical message
+2025-04-01 16:43:42,465 DEBUG: Debug message
+2025-04-01 16:43:42,465 INFO: Info message
+2025-04-01 16:43:42,465 WARNING: Warning message
+2025-04-01 16:43:42,465 ERROR: Error message
+2025-04-01 16:43:42,465 CRITICAL: Critical message
+2025-04-01 16:44:02,916 DEBUG: Debug message
+2025-04-01 16:44:02,916 INFO: Info message
+2025-04-01 16:44:02,916 WARNING: Warning message
+2025-04-01 16:44:02,916 ERROR: Error message
+2025-04-01 16:44:02,916 CRITICAL: Critical message
+2025-04-01 16:44:02,916 ERROR: Error reading JSON: 'utf-8' codec can't decode byte 0x9b in position 10: invalid start byte
+2025-04-01 16:44:22,017 DEBUG: Debug message
+2025-04-01 16:44:22,018 INFO: Info message
+2025-04-01 16:44:22,018 WARNING: Warning message
+2025-04-01 16:44:22,018 ERROR: Error message
+2025-04-01 16:44:22,018 CRITICAL: Critical message
+2025-04-01 16:44:22,018 ERROR: File not found: [Errno 2] No such file or directory: 'C:\\Users\\Dareshin.D\\PycharmProjects\\coursework\\data\\operations.json'
+2025-04-01 16:45:04,700 DEBUG: Debug message
+2025-04-01 16:45:04,700 INFO: Info message
+2025-04-01 16:45:04,700 WARNING: Warning message
+2025-04-01 16:45:04,700 ERROR: Error message
+2025-04-01 16:45:04,700 CRITICAL: Critical message
+2025-04-01 16:45:04,700 ERROR: Invalid file format: C:\Users\Dareshin.D\PycharmProjects\coursework\data\operations.xlsx
+2025-04-01 16:46:21,774 DEBUG: Debug message
+2025-04-01 16:46:21,774 INFO: Info message
+2025-04-01 16:46:21,774 WARNING: Warning message
+2025-04-01 16:46:21,774 ERROR: Error message
+2025-04-01 16:46:21,774 CRITICAL: Critical message
+2025-04-01 16:46:21,774 ERROR: Error reading Excel: Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+2025-04-01 16:47:00,320 DEBUG: Debug message
+2025-04-01 16:47:00,320 INFO: Info message
+2025-04-01 16:47:00,320 WARNING: Warning message
+2025-04-01 16:47:00,320 ERROR: Error message
+2025-04-01 16:47:00,320 CRITICAL: Critical message
+2025-04-01 16:47:01,001 DEBUG: Successfully loaded Excel data from C:\Users\Dareshin.D\PycharmProjects\coursework\data\operations.xlsx
