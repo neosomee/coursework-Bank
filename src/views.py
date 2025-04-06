@@ -16,13 +16,13 @@ STC_API_KEY = os.getenv('STC_API_KEY')
 BASE_DIR = r'C:\Users\Dareshin.D\PycharmProjects\coursework'
 DATA_DIR = os.path.join(BASE_DIR, 'data')
 LOG_DIR = os.path.join(BASE_DIR, 'logs')
-USER_SETTINGS_PATH = os.path.join(DATA_DIR, 'user_settings.json')
-OPERATIONS_XLSX_PATH = os.path.join(DATA_DIR, 'operations.xlsx')
+USER_SETTINGS_PATH = os.path.join(DATA_DIR, r'C:\Users\neosome\PycharmProjects\coursework-Bank\data\user_settings.json')
+OPERATIONS_XLSX_PATH = os.path.join(DATA_DIR, r'C:\Users\neosome\PycharmProjects\coursework-Bank\data\operations.xlsx')
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
-file_handler = logging.FileHandler(os.path.join(LOG_DIR, 'utils.log'))
+file_handler = logging.FileHandler(os.path.join(LOG_DIR, r'C:\Users\neosome\PycharmProjects\coursework-Bank\logs\utils.log'))
 file_formatter = logging.Formatter('%(asctime)s %(levelname)s: %(message)s')
 file_handler.setFormatter(file_formatter)
 logger.addHandler(file_handler)

@@ -1,6 +1,4 @@
-import logging
 import pandas as pd
-
 
 def xlsx_reader(file_path: str) -> list:
     """
@@ -8,8 +6,8 @@ def xlsx_reader(file_path: str) -> list:
     """
     try:
         data = pd.read_excel(file_path)
-        data["Номер карты"] = data["Номер карты"].astype(str)
+        if not data.empty and "Номер карты" in data.columns:
+            data["Номер карты"] = data["Номер карты"].astype(str)
         return data.to_dict("records")
     except FileNotFoundError:
         return []
-

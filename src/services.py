@@ -5,7 +5,7 @@ import pandas as pd
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-FILE_PATH = r'C:\Users\Dareshin.D\PycharmProjects\coursework\data\operations.xlsx'
+FILE_PATH = r'C:\Users\neosome\PycharmProjects\coursework-Bank\data\operations.xlsx'
 
 def search_transactions_from_excel(query):
     """
